@@ -1,11 +1,22 @@
 h1 {
     color: purple;
+    text-align: center;
+    margin-top: -4%;
+    font-size: 80px;
 }
-#Quien-Soy p {
+#quien-Soy p {
     font-size: 20px;
     text-align: center;
+    margin-top: 0%;
 }
-h1 {
+#presentphoto {
+    margin-left: 5%;
+    margin-top: 8%;
+}
+#telsito {
     text-align: center;
-    font-size: 80px;
+}
+#quien-Soy, header {
+    border: 5px solid rgb(81, 130, 185);
+    background-color: rgb(81, 130, 185);
 }
