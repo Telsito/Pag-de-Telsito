@@ -61,9 +61,7 @@ h2 {
 }
 #logros {
     background-color: rgb(255 146 255);
-    margin-top: 77px;
-    margin-bottom: 20%;
-    padding-bottom: 5%;
+    min-height: 100vh;
 }
 header {
     padding-top: 50px;
@@ -73,4 +71,11 @@ header {
     gap: 100px;
     align-items: center;
     justify-content: center;
+}
+#objetivos {
+    background-image: url(https://s3.envato.com/files/7a313d4a-0ad0-465e-b9a8-644b6e62236c/inline_image_preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
 }
