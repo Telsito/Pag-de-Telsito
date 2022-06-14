@@ -1,8 +1,13 @@
 body {
     font-family: 'Oswald', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/83/ee/86/83ee86204adbc7f85a1740fcbabc10b6.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
 }
 h1 {
-    color: purple;
+    color: rgb(211, 124, 211);
     text-align: center;
     margin-top: -4%;
     font-size: 80px;
@@ -13,6 +18,7 @@ h1 {
     margin-top: 0%;
     width: 90%;
     margin-left: 5%;
+    color: aliceblue;
 }
 #quien-Soy {
     margin-bottom: 40px;
@@ -28,10 +34,6 @@ h1 {
 }
 #quien-Soy, header {
     border: 5px;
-    background-color: plum;
-}
-body {
-    margin: 0%;
 }
 #lista {
     display: flex;
@@ -42,9 +44,19 @@ body {
     font-size: 30px;
     margin: 0%;
 }
+a:visited {
+    color: aliceblue;
+}
+a:link {
+    color: aliceblue;
+}
+a:hover {
+    color: rgb(147, 185, 218);
+}
 footer {
     text-align: center;
     font-size: 20px;
+    color: aliceblue;
 }
 #logros p {
     font-size: 40px;
@@ -52,15 +64,15 @@ footer {
     margin-top: 0%;
     width: 90%;
     margin-left: 5%;
+    color: aliceblue;
 }
 h2 {
-    color: purple;
+    color: rgb(211, 124, 211);
     text-align: center;
     margin-top: -4%;
     font-size: 80px;
 }
 #logros {
-    background-color: rgb(255 146 255);
     min-height: 100vh;
 }
 header {
@@ -73,9 +85,17 @@ header {
     justify-content: center;
 }
 #objetivos {
-    background-image: url(https://s3.envato.com/files/7a313d4a-0ad0-465e-b9a8-644b6e62236c/inline_image_preview.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     min-height: 100vh;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#contratame {
+    border: groove 10px;
+    border-color: rgb(231, 77, 211);    
+    color: aliceblue;
+    text-align: center;
+}
+#contratame h3 {
+    font-size: 50px;
 }
