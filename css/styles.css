@@ -90,6 +90,9 @@ header {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+#objetivos h3 {
+    color: rgb(211, 124, 211);
+}
 #contratame {
     border: groove 10px;
     border-color: rgb(231, 77, 211);    
@@ -98,4 +101,5 @@ header {
 }
 #contratame h3 {
     font-size: 50px;
+    color: rgb(211, 124, 211);
 }
